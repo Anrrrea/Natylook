@@ -1,5 +1,5 @@
 header {
-    background-color: #c73d82;
+    background-color: #fa69b2;
 }
 
 a {
@@ -76,6 +76,7 @@ img {
 
 .icono-texto img {
     width: 70px;
+    height: 100px;
     
 }
 
@@ -96,21 +97,21 @@ img {
 }
 
 /*FILTRO*/
-#saladas, #dulces, #todas {
+#espejo, #botox, #peinados {
     display: none;
 }
 
-.salada, .dulce {
+.espejo, .botox {
     display: none;
 }
 
-#saladas:checked ~ .container-cards .salada,
-#dulces:checked ~ .container-cards .dulce {
+#espejo:checked ~ .container-cards .espejo,
+#botox:checked ~ .container-cards .botox {
     display: flex;
 }
 
-#todas:checked ~ .container-cards .salada,
-#todas:checked ~ .container-cards .dulce {
+#todas:checked ~ .container-cards .espejo,
+#todas:checked ~ .container-cards .botox {
     display: flex;
 }
 
@@ -138,14 +139,14 @@ img {
 }
 
 .container-opciones label:hover {
-    background-color: #c73d82;
+    background-color: #db8fd1;
     border: none;
 }
 
-#saladas:checked ~ .container-opciones .label-saladas,
-#dulces:checked ~ .container-opciones .label-dulces,
+#espejo:checked ~ .container-opciones .label-espejo,
+#botox:checked ~ .container-opciones .label-botox,
 #todas:checked ~ .container-opciones .label-todas {
-    background-color: #c73d82;
+    background-color: #db8fd1;
 }
 
 .logo{
