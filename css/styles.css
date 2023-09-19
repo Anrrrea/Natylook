@@ -2,6 +2,7 @@ header {
     background-color: #fa69b2;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -19,6 +20,7 @@ img {
 .carousel-item img {
     height: 45vh;
 }
+
 
 @media (min-width: 520px) {
     .carousel-item img {
@@ -185,4 +187,6 @@ img {
     
 }
 
-
+.mapa{
+    gap: 50px;
+}

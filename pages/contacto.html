@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
 
-                  <a class="nav-link" aria-current="page" href="../index.html"></a>
+                  <a class="nav-link" aria-current="page" href="../index.html"> Inicio </a>
                   <a class="nav-link " href="servicios.html">Servicios</a>
                   <a class="nav-link active" href="contacto.html">Contacto</a>
                   <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -41,98 +41,50 @@
         </header>
     </header>
 
-    <section class="my-5">
-        <h1 class="text-center">Contactanos </h1>
-        
-    
-        <div class="filtro">
-            <input type="radio" name="seleccionado" id="sugerencias">
-            <input type="radio" name="seleccionado" id="consultas">
-            
-    
-            <div class="container-opciones my-5">
-                <label for="sugerencias" class="label-sugerencias">
-                    Sugerencias
-                </label>
-    
-                <label for="consultas" class="label-consultas">
-                    Consultas
-                </label>
-    
-                
+    <section>
+        <h1 class="titulo-form text-center">Contactanos</h1>
+        <p class="text-center">Déjanos tus datos para mantenerte informada de nuestras novedades y descuentos.</p>
+        <form class="formulario">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre" placeholder="nombre y apellido">
+                <label for="nombre">Nombre y Apellido</label>
             </div>
-    
-            <div class="container-cards">
-                <!-- CARDS CON BOOTSTRAP-->
-
-                <!-- CARD 1 -->
-                <div class="card sugerencias" style="width: 18rem;">
-                    <img src="../img/cards1.jpg" class="card-img-top" alt="alisado-sugerencias">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Sugerir</a>
+            <div class="mail form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+                <input type="tel" class="form-control" id="telefono" placeholder="numero telefonico">
+                <label for="telefono">Número telefónico</label>
+            </div>
+            <div class="sugerencia form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Sugerencias y comentarios</label>
+            </div>
+            <fieldset class="tema row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Tema de interés</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                            Alisados</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Botox y Tratamiento Capilar</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                            <label class="form-check-label" for="gridRadios3">Peinados y Ocaciones especiales</label>
+                        </div>
                     </div>
-                  </div>
+            </fieldset>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-primary">Limpiar</button>
+        </form>
+       
     
-                <!-- CARDS DE DULCES CON BOOTSTRAP-->
-
-                <!-- CARD 1 -->
-                <div class="card consultas" style="width: 18rem;">
-                    <img src="../img/card3.jpg" class="card-img-top" alt="cons-ulta">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Consultar</a>
-                    </div>
-                  </div>
-                
-                
-                
-
-                 
-                         
-            </div>
-        </div>
-    </section>
-    
-    <section class="my-5">
-        <h2 class="text-center">Como Agendar</h2>
-
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Seleccionar Fecha
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Ingresa tus Datos
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Seleccionar medio de Pago
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-              </div>
-            </div>
-          </div>
-    </section>
-
+      
     <footer>
         <h3 class="text-center">Visita nuestras redes sociales</h3>
 
